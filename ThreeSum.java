@@ -48,5 +48,5 @@ class ThreeSum {
         int[] nums = {0,0,0,0}; 
         List<List<Integer>> ans = s.threeSum(nums);
         System.out.println(ans);
-    }
+     }
 }

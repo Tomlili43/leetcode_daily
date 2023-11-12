@@ -7,7 +7,7 @@ class LongestSubstringWithoutRepeatingCharacters {
         // use left pointer to get max length = i - left +1;
         int max =0;
         int left = 0;
-        HashMap<Character,Integer> map = new HashMap();
+        HashMap<Character,Integer> map = new HashMap()  ;
         int len = s.length();
         for(int i = 0;i<len;i++){
             // left
