@@ -4,10 +4,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import tree.BST.TreeNode;
+import tree.TreeNode;
 
 
-public class InorderTraversal {
+public class TreeTraversal {
     public List<Integer> inorder(TreeNode root){
         List<Integer> res = new ArrayList<>();
         inorder(root, res);
@@ -66,7 +66,7 @@ public class InorderTraversal {
         BST bst = new BST();
         int[] nums = {1, 2, 3, 4, 5};
         TreeNode root = bst.sortedArrayToBST(nums);
-        InorderTraversal sol = new InorderTraversal();
+        TreeTraversal sol = new TreeTraversal();
         List<List<Integer>> res = new ArrayList<>();
         res = sol.levelOrder(root);
         System.out.println(res);
