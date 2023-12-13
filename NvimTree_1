@@ -1,0 +1,40 @@
+~/Code/BackEnd/Java/Project/java_learn_basic/..
+  .git
+  .vscode
+  ✓ ✗ ★ array
+  basic
+  cpp
+  future
+  ioc_di
+  JDBCDemo
+  ★ linked_list
+  springboot-3-microservices
+  sync
+  threadPool
+  ★ tree
+     BST.java
+     ConvertSortedArrayToBinarySearchTree.java
+     ConvertSortedLinkedListToBinarySearchTree.java
+     ListNode.java
+     ★ NaryTreePostorderTraversal.java
+     TreeNode.java
+     TreeTraversal.java
+   .gitignore
+   frequency_num_in_ordered_array.java
+   GenerateParentheses.java
+   HashMaps.java
+   java_SPA.java
+   LongestPalindromicSubstring.java
+   LongestSubstringWithoutRepeatingCharacters.java
+   MinPathSum.java
+   ★ NvimTree_1
+   QuickSort.java
+   Singleton.java
+   solution.java
+   ✓ subarraySum.java
+   ThreeSum.java
+   ThreeSumClosest.java
+   threeTupleMinDistance.c++
+   TwoSortedArray.java
+   ValidateBST.java
+   ZigzagConversion.java
