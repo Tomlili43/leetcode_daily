@@ -1,0 +1,22 @@
+~/Code/BackEnd/Java/Project/java_learn_basic/LinkedList/..
+  ★ src
+    ★ main
+  │   ★ java
+  │     ★ com
+  │       ★ tom
+  │         ★ dtp
+  │         │  AddTwoNumber.java
+  │         │  App.java
+  │         │  HelloWorld.java
+  │         │  ★ LinkedListCycle.java
+  │         │  ListNode.java
+  │         │  ★ MidLinkedList.java
+  │         │  OddEvenList.java
+  │         └  ReversedLinkedList.java
+    test
+      java
+        com
+          tom
+            dtp
+            └  AppTest.java
+  󰗀 pom.xml

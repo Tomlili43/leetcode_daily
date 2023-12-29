@@ -1,0 +1,36 @@
+import java.util.List;
+import java.util.Stack;
+
+public class KeyRoom {
+  public boolean canVisitAllRooms(List<List<Integer>> rooms) {
+    boolean[] seen = new boolean[rooms.size()];
+    seen[0] = true;
+
+    Stack<Integer> keys = new Stack();
+    keys.add(0);
+
+    while (!keys.isEmpty()) {
+      int current_key = keys.pop();
+      for (int new_key : rooms.get(current_key)) {
+        if (!seen[new_key]) {
+          seen[new_key] = true;
+          keys.add(new_key);
+        }
+      }
+    }
+
+    for (boolean visited : seen) {
+      if (!visited)
+        return false;
+    }
+
+    return true;
+  }
+
+  public static void main(String[] args) throws InterruptedException {
+    System.out.println("hello");
+    while (true) {
+      Thread.sleep(3000);
+    }
+  }
+}
