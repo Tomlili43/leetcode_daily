@@ -1,0 +1,22 @@
+~/Code/BackEnd/Java/Project/java_learn_basic/JDBCDemo/..
+  ◌ .settings
+  .vscode
+  ✗ src
+    ✗ main
+  │   ✗ java
+  │     ✗ com
+  │       ✗ tom
+  │         ✗ app
+  │         │  ◌ App.class
+  │         │  ✗ App.java
+  │         └  RetriveData.java
+    test
+      java
+        com
+          tom
+            app
+            └  AppTest.java
+  ✗ target
+   ◌ .classpath
+   ◌ .project
+  󰗀 pom.xml
